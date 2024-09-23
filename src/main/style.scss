@@ -1,0 +1,101 @@
+.homePage{
+    width: 70rem;
+    background-color: white;
+    // border: 1px solid black;
+    top: 50%;
+    left: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    .popupModal{
+        width: 80rem;
+        // background-color: purple;
+        border: 2px solid slateblue;
+        height: 40rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        .popup{
+            width: 70rem;
+            background-color: white;
+            border-radius: 1rem;
+            .color-112{
+                color: rgb(112, 112, 112);
+            }
+        }
+    }
+    .popup-input{
+        border: 1px solid rgb(154, 154, 154);
+        height: 2.3rem;
+        border-radius: 0.5rem;
+        input{
+            display: block;
+            width: 100% ;
+            color: rgb(154, 154, 154);
+        }
+    }
+    .header{
+        .menu{
+            span{
+                display: block;
+                width: 2rem;
+                height: 0.2rem;
+                background-color: black;
+                border-radius: 0.5rem;
+            }
+        }
+        .logo{
+            .orangeCircle{
+                width: 3rem;
+                height: 3rem;
+                background: #F16018;
+                border-radius: 100%;
+                color: white;
+            }
+        }
+        .search{
+            // border: 1px solid rgb(158, 158, 158);
+            border-radius: 100%;
+        }
+    }
+    .body{
+        .title{
+            color: rgb(105, 105, 105);
+        }
+        .listMovies{
+            height: 25rem;
+            grid-template-columns: repeat(auto-fit, 15rem);
+            .movies-items{
+                height: 24rem;
+                // border: 1px solid black;
+                width: 15rem;
+                .movies-img{
+                    width: 100%;
+                    height: 88%;
+                    // border: 1px solid #F16018 ;
+                    border-radius: 0.4rem;
+                    background-size: cover;
+                }
+                .movies-title{
+                    color: rgb(66, 66, 66);
+                }
+                .movies-details{
+                    color: rgb(114, 114, 114);
+                }
+            }
+        }
+        .arrow-btn{
+            top: 0;
+            .arrow{
+                width: 3rem;
+                height: 3rem;
+                background-color: black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 100%;
+                opacity: 0.8;
+            }
+        }
+    }
+}

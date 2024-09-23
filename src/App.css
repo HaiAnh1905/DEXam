@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-image: linear-gradient(#FFD161, #FFAC48);
+  height: 100vh;
+}
+.scrollbar-none::-webkit-scrollbar{
+  display: none;
+}
+.no-outline:focus{
+  outline: none;
+}
